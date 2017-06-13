@@ -1,0 +1,48 @@
+
+#button{
+  margin-top: 10px;
+  width: 45%;
+}
+#todoform{
+  margin-bottom: 80px;
+}
+main{
+  background-color: #B8E4E7;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+h1{
+background-color: white;
+}
+img{
+ 	width: 120%;
+ 	height: auto;
+}
+#photo{
+  height:12%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 5%;
+  padding-right: 8%;
+  max-width: 14em;
+}
+#todoinput{
+  width: 80%;
+  border-style: solid;
+  max-width: 35em;
+}
+.editer:hover {
+  background-color: #4FAFA8;
+  color: white;
+}
+.remove:hover{
+  background-color: #4FAFA8;
+  color: white;
+}
+ul li {
+
+list-style: none;
+}
