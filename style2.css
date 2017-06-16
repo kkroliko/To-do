@@ -1,48 +1,89 @@
-
-#button{
+#button
+{
   margin-top: 10px;
-  width: 45%;
+  border:none;
+	padding:6px 0 6px 0;
+	border-radius:50%;
+	background:#478bf9;
+	font:bold 13px Arial;
+	color:#fff;
+	width:160px;
 }
-#todoform{
+#button:hover
+{
+  background-color: #4FAFA8;
+}
+#todoform
+{
   margin-bottom: 80px;
 }
-main{
+main
+{
   background-color: #B8E4E7;
-  text-align: center;
+ text-align: center;
   margin: 20px;
   padding: 20px;
 }
-h1{
+h1
+{
 background-color: white;
+
 }
-img{
+img
+{
  	width: 120%;
  	height: auto;
 }
-#photo{
+#photo
+{
   height:12%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
   padding: 5%;
-  padding-right: 8%;
+  padding-right: 13%;
   max-width: 14em;
 }
-#todoinput{
+#todoinput
+{
   width: 80%;
   border-style: solid;
   max-width: 35em;
 }
-.editer:hover {
+.editer:hover
+{
   background-color: #4FAFA8;
   color: white;
 }
-.remove:hover{
+.remove{
+    margin: 5px;
+    width:85px;
+  	height:45px;
+  	background:#cc0000;
+  	font:bold 13px Arial;
+  	border-radius:50%;
+  	border:none;
+  	color:#fff;
+}
+.editer{
+  margin: 5px;
+  width:85px;
+	height:45px;
+	background:#83B9D4;
+	font:bold 13px Arial;
+	border-radius:50%;
+	border:none;
+	color:#fff;
+}
+.remove:hover
+{
   background-color: #4FAFA8;
   color: white;
 }
-ul li {
-
+ul li
+{
+padding-right: 40px;
 list-style: none;
+
 }
